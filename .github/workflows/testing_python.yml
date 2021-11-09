@@ -2,10 +2,10 @@ name: Testing Python
 on: 
   push:
     branches:
-      - main
+      - python_unittests 
     pull_request:
       branches:
-        - main
+        - python_unittests 
 
 jobs:
   build:
